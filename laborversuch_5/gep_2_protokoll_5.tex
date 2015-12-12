@@ -25,5 +25,36 @@ Channel 1 (hier dunkelblau) stellt die Spannung dar, die \"uber dem Vorwiderstan
 
 \newpage
 \section{Messung der Kennlinie eines VDR im X-Y-Betrieb}
-text
+Ziel der Messung ist die ma\ss{}stabsgerechte Darstellung der u = f(i)-Kennlinie eines spannungsabh\"angigen Widerstandes (VDR) bei 50Hz (aus Stelltrenntrafo). Es wird dabei auf einen maximalen Strom von 125mA geachtet. Auf dem Oszilloskop soll u = f(i) wie folgt dargestellt werden: \\[1ex] 
+"i" wird in x-Richtung und "u" in y-Richtung dargestellt \\
+
+\underline{Kennliniengleichung des VDR:} \\[1ex]
+\begin{equation}\label{vdr}
+\frac{u}{V}=C\cdot(\frac{i}{mA})^{\beta} mit \beta = 0.36 und C = 1.75 
+\end{equation}
+\subsubsection*{Die Kennlinie wird mit folgender Schaltung gemessen}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{gep2v5_2}
+\end{center}
+Der Widerstand $R_V$ wird mit 40$\Omega$ dimensioniert. Hierbei betr\"agt der Spannungsabfall genau 1V bei einem Strom von 25mA.
+\newpage
+\subsection{Vergleich: Berechnung und Messung bei i = 100mA}
+\subsubsection{Berechnung der Spannung $u_1$}
+Nach \eqref{vdr} mit $i = 100mA \to u = \sim9.18V$
+\subsubsection{Messung von $u_1$, $R_1$ und $r_1$} 
+\begin{center}
+\includegraphics[width=0.8\textwidth]{5_2_1}
+\end{center}
+Die Spannung $u_1$ k\"onnen wir am Graphen beim Stromwert $i_1 = 100mA$ ablesen. \\[1ex]
+$u_1 = \sim 9V$ \\[1ex]
+Der Widerstand $R_1$ wird durch die Formel $R=\frac{u_1}{i_1}$ berechnet. \\[1ex]
+$R=\frac{9V}{100mA}=90\Omega$ \\[1ex]
+Den differentiellen Widerstand $r_1$ bestimmen wir durch eine Tangente durch die beiden Punkte \{(100mA, 9V), (75mA, 8V)\}. \\[1ex]
+Daraus ergibt sich ein differentieller Widerstand $r_1 = 40\Omega$
+\newpage
+\subsubsection{Kopplungsart AC/DC}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{5_2_2}
+\end{center}
+Anhand der gezeigten Ausgabe am Oszilloskop ist zu best\"atigen, dass eine \"Anderung der Kopplungsart von Gleischstrom auf Wechselstrom einen Einfluss auf die Eingangsschaltung des Oszilloskops hat.
 \end{document}
