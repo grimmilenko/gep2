@@ -15,14 +15,28 @@ Platzhalter f\"ur den Schaltplan
 \end{center}
 \subsection{Ergebnisse}
 \subsubsection{Dokumentation der Zeitfunktionen von Strom und Spannung in DC-Kopplung}
-
+\begin{figure}[h!]
+\label{fig:aufg1}
 \begin{center}
 \includegraphics[width=0.9\textwidth]{5_1_1}
 \end{center}
+\end{figure}
 Channel 1 (hier dunkelblau) stellt die Spannung dar, die \"uber dem Vorwiderstand abf\"allt. Channel 2 (hier hellblau) stellt die Spannung \"uber der Spule dar. Der Gesamtstrom der flie\ss{}t, wird durch die Subtraktion von Channel 2 und Channel 1 rechnerisch dargestellt.
 \newpage
 \subsubsection{Berechnung der Impedanz \underline{Z} und Bestimmung der Bauelementgr\"o\ss{}en}
-
+Messwerte die aus \ref{fig:aufg1} entnommen sind und zur Berechnung ben\"otigt werden sind:
+\begin{itemize}
+\item Phasenverschiebung $\varphi = -71.75^\circ$
+\item \^u = 880mV
+\item \(\hat{i} = \frac{u_x}{R_1}$ mit $u_x = 640mV$, daraus folgt $\hat{i} = \frac{8}{625}A\) 
+\end{itemize}  
+Aus diesen Werten l\"asst sich die Impedanz \underline{Z} und die daraus resultierenden Bauelementgr\"o\ss{}en R und L berechnen. \\[1ex]
+\(\underline{Z} = \frac{\hat{u}}{\hat{i}} \cdot e^{-j71.75} \Rightarrow \underline{Z} = 68.75\Omega \cdot e^{j71.75}\) \\[1ex]
+$\Rightarrow \underline{Z} = 21.5\Omega + j65.3\Omega$ \\[1ex]
+Hier k\"onnen wir unserern gesuchten Widerstand R einfach ablesen: R = 21,5$\Omega$ \\[1ex]
+Da der Strom nacheilt, handelt es sich im Induktivit\"at! \\[1ex]
+$\omega \cdot L = 65.3\Omega \Leftrightarrow L = \frac{65.3\Omega}{2\pi50Hz} = 0.2H$ \\[1ex]
+Somit haben wir die Bauelementgr\"o\ss{}en mit R = 21.5$\Omega$ und L = 0.2H bestimmt!
 \newpage
 \section{Messung der Kennlinie eines VDR im X-Y-Betrieb}
 Ziel der Messung ist die ma\ss{}stabsgerechte Darstellung der u = f(i)-Kennlinie eines spannungsabh\"angigen Widerstandes (VDR) bei 50Hz (aus Stelltrenntrafo). Es wird dabei auf einen maximalen Strom von 125mA geachtet. Auf dem Oszilloskop soll u = f(i) wie folgt dargestellt werden: \\[1ex] 
