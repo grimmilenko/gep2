@@ -10,19 +10,20 @@ Oszilloskop 2}
 Mit einem Oszilloskop ist durch gleichzeitige Strom- und Spannungsmessung eine komplexe Impedanz \((\underline{Z}=R+j\omega L)\) einer Spule (0.1H, 10$\Omega$) zu bestimmen.
 \subsection{Messaufbau}
 Um den Spulenstrom mit dem Oszillioskop messen zu k\"onnen, wird der Spule ein geeigneter Widerstand (50$\Omega$) vorgeschaltet. Der Strom wird dann indirekt \"uber den Spannungsabfall an diesem Vorwiderstand bestimmt. Am Signalgenerator wird eine Frequenz von 50Hz (Sinus) eingestellt.
+\begin{figure}[h!]\label{fig:schaltung}
 \begin{center}
-Platzhalter f\"ur den Schaltplan
+\includegraphics[width=0.8\textwidth]{schaltplan}
 \end{center}
+\end{figure}
 \subsection{Ergebnisse}
 \subsubsection{Dokumentation der Zeitfunktionen von Strom und Spannung in DC-Kopplung}
 \begin{figure}[h!]
 \label{fig:aufg1}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{5_1_1}
+\includegraphics[width=0.7\textwidth]{5_1_1}
 \end{center}
 \end{figure}
 Channel 1 (hier dunkelblau) stellt die Spannung dar, die \"uber dem Vorwiderstand abf\"allt. Channel 2 (hier hellblau) stellt die Spannung \"uber der Spule dar. Der Gesamtstrom der flie\ss{}t, wird durch die Subtraktion von Channel 2 und Channel 1 rechnerisch dargestellt.
-\newpage
 \subsubsection{Berechnung der Impedanz \underline{Z} und Bestimmung der Bauelementgr\"o\ss{}en}
 Messwerte die aus \ref{fig:aufg1} entnommen sind und zur Berechnung ben\"otigt werden sind:
 \begin{itemize}
