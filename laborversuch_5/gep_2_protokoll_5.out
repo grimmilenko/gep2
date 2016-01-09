@@ -1,0 +1,9 @@
+\BOOKMARK [1][-]{section.1}{Scheinwiderstandsmessung}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Messaufbau}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Ergebnisse}{section.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Dokumentation der Zeitfunktionen von Strom und Spannung in DC-Kopplung}{subsection.1.2}% 4
+\BOOKMARK [3][-]{subsubsection.1.2.2}{Berechnung der Impedanz Z und Bestimmung der Bauelementgr\366\337en}{subsection.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.3}{Vergleich: Berechnung und Messung bei i = 100mA}{section.1}% 6
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Berechnung der Spannung u1}{subsection.1.3}% 7
+\BOOKMARK [3][-]{subsubsection.1.3.2}{Messung von u1, R1 und r1}{subsection.1.3}% 8
+\BOOKMARK [3][-]{subsubsection.1.3.3}{Kopplungsart AC/DC}{subsection.1.3}% 9
