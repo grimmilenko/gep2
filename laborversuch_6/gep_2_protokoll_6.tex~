@@ -141,7 +141,6 @@ $\tau_{entlade} [ms]$ & $u_{c}(t) [V]$ & $\tau_{auflade} [ms]$ & $u_{c}(t) [V]$ 
   \subfigure[$\tau_{E} = 15.2ms$]{\includegraphics[width=0.49\textwidth]{C-tau-entlade}}
   \caption{Zeitkonstanten $\tau_{A}$ und $\tau_{E}$}
 \end{figure}
-Beim Vergleich der beiden Zeitkonstanten $\tau_A$ miteinander, f\"allt auf, dass die beiden Werte 2.7ms von einander abweichen. Dies ist auf die Ungenauigkeit beim Messen mit dem Oszillioskop zur\"uckzuf\"uhren, da wir die Messflanken anhand eines Drehknopfs eingestellt haben. \\[1ex]
-Bei dem Vergleich der beiden Zeitkonstanten $\tau_E$ miteinander, f\"allt jedoch ein sehr deutlicher Unterschied beider Werte auf. Diese unterscheiden sich um ganze 11.28ms. 
+Beim Vergleich der beiden Zeitkonstanten $\tau_A$ miteinander, f\"allt auf, dass die beiden Werte 2.7ms von einander abweichen. Dies ist auf die Ungenauigkeit beim Messen mit dem Oszillioskop zur\"uckzuf\"uhren, da wir die Messflanken anhand eines Drehknopfs eingestellt haben.
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.11)  9 JAN 2016 18:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.11)  10 JAN 2016 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -112,6 +112,25 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen114
+\extrarowheight=\dimen115
+\NC@list=\toks19
+\extratabsurround=\skip52
+\backup@length=\skip53
+)
+\TX@col@width=\dimen116
+\TX@old@table=\dimen117
+\TX@old@col=\dimen118
+\TX@target=\dimen119
+\TX@delta=\dimen120
+\TX@cols=\count103
+\TX@ftn=\toks20
+)
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
@@ -121,7 +140,7 @@ Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks19
+\KV@toks@=\toks21
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -143,10 +162,10 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count103
+\Gread@gobject=\count104
 ))
-\Gin@req@height=\dimen114
-\Gin@req@width=\dimen115
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
 )
 (./gep_2_protokoll_6.aux)
 \openout1 = `gep_2_protokoll_6.aux'.
@@ -166,17 +185,17 @@ LaTeX Font Info:    ... okay on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen116
+\scratchcounter=\count105
+\scratchdimen=\dimen123
 \scratchbox=\box28
-\nofMPsegments=\count105
-\nofMParguments=\count106
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen117
-\MPnumerator=\count108
-\makeMPintoPDFobject=\count109
-\everyMPtoPDFconversion=\toks21
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen124
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -245,119 +264,153 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 <6-1-auf.PNG, id=8, 513.41812pt x 408.02437pt>
 File: 6-1-auf.PNG Graphic file (type png)
  <use 6-1-auf.PNG>
-Package pdftex.def Info: 6-1-auf.PNG used on input line 17.
+Package pdftex.def Info: 6-1-auf.PNG used on input line 18.
 (pdftex.def)             Requested size: 176.40198pt x 140.18954pt.
 
 <6-1-ab.PNG, id=10, 517.935pt x 420.82219pt>
 File: 6-1-ab.PNG Graphic file (type png)
  <use 6-1-ab.PNG>
-Package pdftex.def Info: 6-1-ab.PNG used on input line 18.
+Package pdftex.def Info: 6-1-ab.PNG used on input line 19.
 (pdftex.def)             Requested size: 176.40198pt x 143.32806pt.
  [1 <./6-1-auf.PNG> <./6-1-ab.PNG>]
-Overfull \hbox (50.64453pt too wide) in paragraph at lines 29--29
+Overfull \hbox (50.64453pt too wide) in paragraph at lines 31--31
 []\OT1/cmr/bx/n/14.4 Zeit- und Span-nungsmes-sung bei ein-ma-li-gen Vorg^^?ange
 n 
  []
 
 
-Overfull \hbox (19.64342pt too wide) in paragraph at lines 32--34
+Overfull \hbox (19.64342pt too wide) in paragraph at lines 34--36
 \OT1/cmr/m/n/10.95 nung sowie das Schaltver-hal-ten des Re-laiss-chal-ters (u$[
 ]$) $[]$ dargestellt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
 <schaltplan_2_1.png, id=22, 312.16624pt x 216.81pt>
 File: schaltplan_2_1.png Graphic file (type png)
  <use schaltplan_2_1.png>
-Package pdftex.def Info: schaltplan_2_1.png used on input line 37.
+Package pdftex.def Info: schaltplan_2_1.png used on input line 39.
 (pdftex.def)             Requested size: 251.9989pt x 175.02626pt.
 
-[2 <./schaltplan_2_1.png>]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 47.
+<6-2-1-schaltzeit.PNG, id=23, 549.55313pt x 408.77719pt>
+File: 6-2-1-schaltzeit.PNG Graphic file (type png)
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+<use 6-2-1-schaltzeit.PNG>
+Package pdftex.def Info: 6-2-1-schaltzeit.PNG used on input line 45.
+(pdftex.def)             Requested size: 323.9978pt x 241.00803pt.
+ [2 <./schaltplan_2_1.png>] [3 <./6-2-1-schaltzeit.PNG>]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 65.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 47.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 65.
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¤ in font cmr10!
 
-Overfull \hbox (18.04808pt too wide) in paragraph at lines 46--49
+Overfull \hbox (18.04808pt too wide) in paragraph at lines 64--67
 \OT1/cmr/m/n/10.95 Da beim Ab-schal-ten von In-duk-tivit^^?aten in-duzierte Spa
 n-nun-gen \OML/cmm/m/it/10.95 >\OT1/cmr/m/n/10.95 250V auftreten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--49
+Underfull \hbox (badness 10000) in paragraph at lines 64--67
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
 
-<6-2-2.PNG, id=28, 550.30594pt x 408.02437pt>
+<6-2-2.PNG, id=34, 550.30594pt x 408.02437pt>
 File: 6-2-2.PNG Graphic file (type png)
  <use 6-2-2.PNG>
-Package pdftex.def Info: 6-2-2.PNG used on input line 55.
+Package pdftex.def Info: 6-2-2.PNG used on input line 73.
 (pdftex.def)             Requested size: 176.40198pt x 130.7946pt.
 
-<6-2-3.PNG, id=29, 532.99126pt x 406.51875pt>
+<6-2-3.PNG, id=35, 532.99126pt x 406.51875pt>
 File: 6-2-3.PNG Graphic file (type png)
  <use 6-2-3.PNG>
-Package pdftex.def Info: 6-2-3.PNG used on input line 56.
+Package pdftex.def Info: 6-2-3.PNG used on input line 74.
 (pdftex.def)             Requested size: 176.40198pt x 134.54237pt.
 
-Overfull \hbox (16.6892pt too wide) in paragraph at lines 61--62
+Overfull \hbox (16.6892pt too wide) in paragraph at lines 79--80
 \OT1/cmr/m/n/10.95 Gemessen wurde eine Max-i-malspan-nung $[] = 462\OML/cmm/m/i
 t/10.95 V$ \OT1/cmr/m/n/10.95 und eine Verz^^?ogerungszeit
  []
 
 
-Overfull \hbox (26.30344pt too wide) in paragraph at lines 63--64
+Overfull \hbox (26.30344pt too wide) in paragraph at lines 81--82
 \OT1/cmr/m/n/10.95 Gemessen wurde eine Max-i-malspan-nung $[] = 760\OML/cmm/m/i
 t/10.95 mV$ \OT1/cmr/m/n/10.95 und eine Verz^^?ogerungszeit
  []
 
-[3 <./6-2-2.PNG> <./6-2-3.PNG>]
-<schaltplan_2_2.png, id=36, 670.505pt x 346.29375pt>
+[4 <./6-2-2.PNG> <./6-2-3.PNG>]
+<schaltplan_2_2.png, id=42, 670.505pt x 346.29375pt>
 File: schaltplan_2_2.png Graphic file (type png)
  <use schaltplan_2_2.png>
-Package pdftex.def Info: schaltplan_2_2.png used on input line 71.
+Package pdftex.def Info: schaltplan_2_2.png used on input line 90.
 (pdftex.def)             Requested size: 251.9989pt x 130.14516pt.
 
-[4 <./schaltplan_2_2.png>] (./gep_2_protokoll_6.aux) ) 
+<6-2-2-a.png, id=43, 849.1725pt x 457.71pt>
+File: 6-2-2-a.png Graphic file (type png)
+ <use 6-2-2-a.png>
+Package pdftex.def Info: 6-2-2-a.png used on input line 99.
+(pdftex.def)             Requested size: 323.9978pt x 174.637pt.
+ [5 <./schaltplan_2_2.png> <./6-2-2-a.png (PNG copy)>] <6-2-2-b.png, id=50, 638
+.385pt x 240.9pt>
+File: 6-2-2-b.png Graphic file (type png)
+
+<use 6-2-2-b.png>
+Package pdftex.def Info: 6-2-2-b.png used on input line 114.
+(pdftex.def)             Requested size: 323.9978pt x 122.26187pt.
+ [6 <./6-2-2-b.png (PNG copy)>]
+<C-tau-auflade.PNG, id=55, 521.69907pt x 408.02437pt>
+File: C-tau-auflade.PNG Graphic file (type png)
+ <use C-tau-auflade.PNG>
+Package pdftex.def Info: C-tau-auflade.PNG used on input line 140.
+(pdftex.def)             Requested size: 176.40198pt x 137.96689pt.
+
+<C-tau-entlade.PNG, id=56, 525.46312pt x 404.26031pt>
+File: C-tau-entlade.PNG Graphic file (type png)
+ <use C-tau-entlade.PNG>
+Package pdftex.def Info: C-tau-entlade.PNG used on input line 141.
+(pdftex.def)             Requested size: 176.40198pt x 135.71333pt.
+
+[7 <./C-tau-auflade.PNG> <./C-tau-entlade.PNG>] (./gep_2_protokoll_6.aux) ) 
 Here is how much of TeX's memory you used:
- 2646 strings out of 494976
- 35455 string characters out of 6179136
- 87188 words of memory out of 5000000
- 5808 multiletter control sequences out of 15000+600000
- 12656 words of font info for 49 fonts, out of 8000000 for 9000
+ 2775 strings out of 494976
+ 37158 string characters out of 6179136
+ 89854 words of memory out of 5000000
+ 5921 multiletter control sequences out of 15000+600000
+ 14876 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 37i,7n,26p,324b,271s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on gep_2_protokoll_6.pdf (5 pages, 210523 bytes).
+ 37i,9n,26p,324b,271s stack positions out of 5000i,500n,10000p,200000b,80000s
+</us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on gep_2_protokoll_6.pdf (8 pages, 320067 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
